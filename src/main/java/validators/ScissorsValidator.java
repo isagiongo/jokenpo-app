@@ -1,5 +1,6 @@
 package validators;
 
+import models.Play;
 import models.enums.JokenpoEnum;
 
 import java.util.List;
@@ -7,9 +8,10 @@ import java.util.List;
 public class ScissorsValidator implements JokenpoValidator {
 
     @Override
-    public String returnWinner(List<JokenpoEnum> players) {
-        if (players.stream().anyMatch(p -> p.equals(JokenpoEnum.PAPER))) {
-            return "Scissors";
+    public Play returnWinner(List<Play> players) {
+        if (players.stream().anyMatch(p -> p.getPlay().equals(JokenpoEnum.PAPER))) {
+            return players.get(0);
         }
-        return null;    }
+        return players.get(1);
+    }
 }

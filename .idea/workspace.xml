@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41e9c766-2264-42e5-a96b-b45d44019c06" name="Default Changelist" comment="" />
+    <list default="true" id="41e9c766-2264-42e5-a96b-b45d44019c06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Play.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JokenpoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JokenpoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/JokenpoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/JokenpoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/JokenpoValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/JokenpoValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/PaperValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/PaperValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/RockValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/RockValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validators/ScissorsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/ScissorsValidator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +38,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZXzui5cdmUJMyPZOpJqCoCrOOy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,6 +47,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="models" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="JokenpoInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -58,13 +79,77 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585005046218">
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585045895813">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1585005046218" />
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1585045895813" />
+    <state x="415" y="174" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585045834902">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="415" y="174" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1585045834902" />
+    <state width="437" height="478" key="DebuggerActiveHint" timestamp="1585059288064">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="437" height="478" key="DebuggerActiveHint/0.27.1366.741@0.27.1366.741" timestamp="1585059288064" />
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1585061358969">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585061358969" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1585061358969">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585061358969" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1585061358968">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585061358968" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1585061358969">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585061358969" />
+    <state width="1320" height="219" key="GridCell.Tab.1.bottom" timestamp="1585060988224">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585060988224" />
+    <state width="1320" height="219" key="GridCell.Tab.1.center" timestamp="1585060988223">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1585060988223" />
+    <state width="1320" height="219" key="GridCell.Tab.1.left" timestamp="1585060988223">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1585060988223" />
+    <state width="1320" height="219" key="GridCell.Tab.1.right" timestamp="1585060988224">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1585060988224" />
     <state x="453" y="287" width="524" height="481" key="extract.method.dialog" timestamp="1585007554362">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="453" y="287" width="524" height="481" key="extract.method.dialog/0.27.1366.741@0.27.1366.741" timestamp="1585007554362" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JokenpoInterface.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/JokenpoService.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/validators/RockValidator.java</url>
+          <line>12</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

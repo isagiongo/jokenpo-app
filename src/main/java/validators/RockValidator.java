@@ -1,5 +1,6 @@
 package validators;
 
+import models.Play;
 import models.enums.JokenpoEnum;
 
 import java.util.Comparator;
@@ -8,10 +9,10 @@ import java.util.List;
 public class RockValidator implements JokenpoValidator {
 
     @Override
-    public String returnWinner(List<JokenpoEnum> players) {
-        if (players.stream().anyMatch(p -> p.equals(JokenpoEnum.SCISSORS))) {
-           return "Rock";
+    public Play returnWinner(List<Play> players) {
+        if (players.stream().anyMatch(p -> p.getPlay().equals(JokenpoEnum.SCISSORS))) {
+            return players.get(0);
         }
-        return null;
+        return players.get(1);
     }
 }

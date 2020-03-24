@@ -1,10 +1,11 @@
+import models.Play;
 import models.enums.JokenpoEnum;
 import services.JokenpoService;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -49,25 +50,34 @@ public class JokenpoInterface {
     private static void returnWinner() throws IOException {
         jokenpoService = new JokenpoService();
 
-        List<JokenpoEnum> plays = readPlays();
-        System.out.println("------------------------------------------------------");
-        System.out.println("The winner is: " + jokenpoService.returnWinner(plays));
-        System.out.println("------------------------------------------------------\n");
+        List<Play> plays = readPlays();
+        Play winner = jokenpoService.returnWinner(plays);
+        if (winner != null) {
+            System.out.println("------------------------------------------------------");
+            System.out.println("The winner is: " + winner.getPlayer() + " with " + winner.getPlay());
+            System.out.println("------------------------------------------------------\n");
+        } else {
+            System.out.println("------------------------------------------------------");
+            System.out.println("The game tied! :( ");
+            System.out.println("------------------------------------------------------\n");
+        }
     }
 
-    private static List<JokenpoEnum> readPlays() throws IOException {
+    private static List<Play> readPlays() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        JokenpoEnum playerOne;
-        JokenpoEnum playerTwo;
+        List<Play> players = new ArrayList<>();
+        Play playerOne;
+        Play playerTwo;
         boolean isValid;
 
         do {
             System.out.println("Player One, Enter 1 for Rock, 2 for Paper or 3 for Scissors:  ");
-            playerOne = JokenpoEnum.getFromPrefix(reader.readLine());
-            System.out.println("Player Two, Enter 1 for Rock, 2 for Paper or 3 for Scissors:  ");
-            playerTwo = JokenpoEnum.getFromPrefix(reader.readLine());
+            playerOne = new Play("PlayerOne", JokenpoEnum.getFromPrefix(reader.readLine()));
 
-            if (isPlayValid(playerOne) && isPlayValid(playerTwo)) {
+            System.out.println("Player Two, Enter 1 for Rock, 2 for Paper or 3 for Scissors:  ");
+            playerTwo = new Play("PlayerTwo", JokenpoEnum.getFromPrefix(reader.readLine()));
+
+            if (isPlayValid(playerOne.getPlay()) && isPlayValid(playerTwo.getPlay())) {
                 isValid = true;
             } else {
                 System.out.println("It is not a valid option. Please type again.");
@@ -76,7 +86,9 @@ public class JokenpoInterface {
         }
         while (!(isValid));
 
-        return Arrays.asList(playerOne, playerTwo);
+        players.add(playerOne);
+        players.add(playerTwo);
+        return players;
     }
 
     private static boolean isPlayValid(JokenpoEnum play) {

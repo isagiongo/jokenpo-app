@@ -1,9 +1,10 @@
 package validators;
 
+import models.Play;
 import models.enums.JokenpoEnum;
 
 import java.util.List;
 
 public interface JokenpoValidator {
-    String returnWinner(List<JokenpoEnum> players);
+    Play returnWinner(List<Play> players);
 }
