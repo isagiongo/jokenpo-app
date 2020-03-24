@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41e9c766-2264-42e5-a96b-b45d44019c06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/validators/JokenpoValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JokenpoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JokenpoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/services/JokenpoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/JokenpoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/validators/JokenpoValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/JokenpoValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/validators/PaperValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/PaperValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/validators/RockValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/RockValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/validators/ScissorsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/ScissorsValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JokenpoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JokenpoInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Play.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/JokenpoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/JokenpoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validators/JokenpoValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/JokenpoValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validators/PaperValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/PaperValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validators/RockValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/RockValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validators/ScissorsValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/ScissorsValidator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -48,23 +56,107 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="validators" />
+      <recent name="services" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="JokenpoInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JokenpoInterface" />
+  <component name="RunManager" selected="JUnit.JokenpoValidatorTest">
+    <configuration name="JokenpoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jokenpo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.JokenpoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JokenpoServiceTest.shouldReturnNullIfMovesAreEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jokenpo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.JokenpoServiceTest" />
+      <option name="METHOD_NAME" value="shouldReturnNullIfMovesAreEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JokenpoValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jokenpo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="validators" />
+      <option name="MAIN_CLASS_NAME" value="validators.JokenpoValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JokenpoValidatorTest.shouldReturnPaperWinnerVsRock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jokenpo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="validators" />
+      <option name="MAIN_CLASS_NAME" value="validators.JokenpoValidatorTest" />
+      <option name="METHOD_NAME" value="shouldReturnPaperWinnerVsRock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JokenpoValidatorTest.shouldReturnRockWinnerVsScissors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jokenpo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="validators" />
+      <option name="MAIN_CLASS_NAME" value="validators.JokenpoValidatorTest" />
+      <option name="METHOD_NAME" value="shouldReturnRockWinnerVsScissors" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JokenpoInterface" />
+        <item itemvalue="JUnit.JokenpoValidatorTest" />
+        <item itemvalue="JUnit.JokenpoServiceTest" />
+        <item itemvalue="JUnit.JokenpoServiceTest.shouldReturnNullIfMovesAreEquals" />
+        <item itemvalue="JUnit.JokenpoValidatorTest.shouldReturnRockWinnerVsScissors" />
+        <item itemvalue="JUnit.JokenpoValidatorTest.shouldReturnPaperWinnerVsRock" />
       </list>
     </recent_temporary>
   </component>
@@ -87,42 +179,54 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="415" y="174" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1585045834902" />
+    <state x="650" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585085884029">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="650" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.741@0.27.1366.741" timestamp="1585085884029" />
     <state width="437" height="478" key="DebuggerActiveHint" timestamp="1585059288064">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="437" height="478" key="DebuggerActiveHint/0.27.1366.741@0.27.1366.741" timestamp="1585059288064" />
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1585061358969">
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1585094076935">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585061358969" />
-    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1585061358969">
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585094076935" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1585094076934">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585061358969" />
-    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1585061358968">
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585094076934" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1585094076934">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585061358968" />
-    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1585061358969">
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585094076934" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1585094076934">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585061358969" />
-    <state width="1320" height="219" key="GridCell.Tab.1.bottom" timestamp="1585060988224">
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585094076934" />
+    <state width="1320" height="219" key="GridCell.Tab.1.bottom" timestamp="1585062167985">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="219" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585060988224" />
-    <state width="1320" height="219" key="GridCell.Tab.1.center" timestamp="1585060988223">
+    <state width="1320" height="219" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585062167985" />
+    <state width="1320" height="219" key="GridCell.Tab.1.center" timestamp="1585062167985">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="219" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1585060988223" />
-    <state width="1320" height="219" key="GridCell.Tab.1.left" timestamp="1585060988223">
+    <state width="1320" height="219" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1585062167985" />
+    <state width="1320" height="219" key="GridCell.Tab.1.left" timestamp="1585062167985">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="219" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1585060988223" />
-    <state width="1320" height="219" key="GridCell.Tab.1.right" timestamp="1585060988224">
+    <state width="1320" height="219" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1585062167985" />
+    <state width="1320" height="219" key="GridCell.Tab.1.right" timestamp="1585062167985">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="219" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1585060988224" />
+    <state width="1320" height="219" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1585062167985" />
+    <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585091288575">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1585091288575" />
+    <state x="457" y="129" width="442" height="535" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585062138627">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="457" y="129" width="442" height="535" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1585062138627" />
     <state x="453" y="287" width="524" height="481" key="extract.method.dialog" timestamp="1585007554362">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -138,12 +242,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/services/JokenpoService.java</url>
-          <line>13</line>
+          <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/validators/RockValidator.java</url>
-          <line>12</line>
+          <line>11</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>

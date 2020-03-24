@@ -2,21 +2,21 @@ package models;
 
 import models.enums.JokenpoEnum;
 
-public class Play {
+public class Game {
 
     private String player;
-    private JokenpoEnum play;
+    private JokenpoEnum move;
 
-    public Play(String player, JokenpoEnum play) {
+    public Game(String player, JokenpoEnum move) {
         this.player = player;
-        this.play = play;
+        this.move = move;
     }
 
     public String getPlayer() {
         return player;
     }
 
-    public JokenpoEnum getPlay() {
-        return play;
+    public JokenpoEnum getMove() {
+        return move;
     }
 }
