@@ -1,0 +1,8 @@
+models/enums/JokenpoEnum.class
+models/Game.class
+JokenpoInterface.class
+services/JokenpoService.class
+validators/ScissorsValidator.class
+validators/PaperValidator.class
+validators/RockValidator.class
+validators/JokenpoValidator.class

@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41e9c766-2264-42e5-a96b-b45d44019c06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/validators/JokenpoValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JokenpoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JokenpoInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/JokenpoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/JokenpoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/validators/JokenpoValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/JokenpoValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/validators/PaperValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/PaperValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/validators/RockValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/RockValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/validators/ScissorsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validators/ScissorsValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JokenpoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JokenpoInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Play.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/JokenpoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/JokenpoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/JokenpoValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/JokenpoValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/PaperValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/PaperValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/RockValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/RockValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validators/ScissorsValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validators/ScissorsValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jokenpo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/jokenpo.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
