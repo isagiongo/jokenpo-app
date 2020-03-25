@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41e9c766-2264-42e5-a96b-b45d44019c06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JokenpoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JokenpoInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jokenpo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/jokenpo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +46,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="validators" />
       <recent name="services" />
+      <recent name="validators" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -71,6 +68,22 @@
       <option name="PACKAGE_NAME" value="services" />
       <option name="MAIN_CLASS_NAME" value="services.JokenpoServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JokenpoServiceTest.shouldReturnNullIfIsTie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jokenpo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.JokenpoServiceTest" />
+      <option name="METHOD_NAME" value="shouldReturnNullIfIsTie" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,22 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JokenpoValidatorTest.shouldReturnPaperWinnerVsRock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jokenpo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="validators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="validators" />
-      <option name="MAIN_CLASS_NAME" value="validators.JokenpoValidatorTest" />
-      <option name="METHOD_NAME" value="shouldReturnPaperWinnerVsRock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JokenpoValidatorTest.shouldReturnRockWinnerVsScissors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jokenpo" />
       <extension name="coverage">
@@ -141,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.JokenpoValidatorTest" />
+        <item itemvalue="JUnit.JokenpoServiceTest.shouldReturnNullIfIsTie" />
         <item itemvalue="JUnit.JokenpoServiceTest" />
         <item itemvalue="JUnit.JokenpoServiceTest.shouldReturnNullIfMovesAreEquals" />
         <item itemvalue="JUnit.JokenpoValidatorTest.shouldReturnRockWinnerVsScissors" />
-        <item itemvalue="JUnit.JokenpoValidatorTest.shouldReturnPaperWinnerVsRock" />
       </list>
     </recent_temporary>
   </component>
@@ -175,22 +172,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="437" height="478" key="DebuggerActiveHint/0.27.1366.741@0.27.1366.741" timestamp="1585059288064" />
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1585094076935">
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1585134829666">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585094076935" />
-    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1585094076934">
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585134829666" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1585134829665">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585094076934" />
-    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1585094076934">
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585134829665" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1585134829665">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585094076934" />
-    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1585094076934">
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585134829665" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1585134829666">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585094076934" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585134829666" />
     <state width="1320" height="219" key="GridCell.Tab.1.bottom" timestamp="1585062167985">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -211,10 +208,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1585091288575" />
-    <state x="457" y="129" width="442" height="535" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585062138627">
+    <state x="457" y="129" width="442" height="535" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585129989132">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="457" y="129" width="442" height="535" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1585062138627" />
+    <state x="457" y="129" width="442" height="535" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1585129989132" />
     <state x="453" y="287" width="524" height="481" key="extract.method.dialog" timestamp="1585007554362">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
